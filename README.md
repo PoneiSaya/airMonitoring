@@ -99,6 +99,6 @@ Then, simply follow these steps:
     - Open the Node Red [dashboard](http://localhost:1880).
     - Import the airMonitoringFlow in `./flow` folder.
     - Press Manage palette and from install tab search and install the following palette:
-            - node-red-dashboard
-            - node-red-contrib-mqtt-broker
+        - node-red-dashboard
+        - node-red-contrib-mqtt-broker
     - Set the MQTT server property (Server, Port, Username and Password) on `pmTopic` or `fanTopic` (this will automatically change both).
