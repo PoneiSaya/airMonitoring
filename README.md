@@ -102,3 +102,7 @@ Then, simply follow these steps:
         - node-red-dashboard
         - node-red-contrib-mqtt-broker
     - Set the MQTT server property (Server, Port, Username and Password) on `pmTopic` or `fanTopic` (this will automatically change both).
+    - Click on `Deploy`.
+
+## Try it
+Once is all settled up just try click one of the `inject` tabs on the `Node Red` imported flow. The `msg150` one will also trigger Alexa.
