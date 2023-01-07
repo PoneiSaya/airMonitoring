@@ -8,7 +8,7 @@ To present the project, the sensors are simulated using node red. Meanwhile, pur
 
 ## Architecture
 
-![architettura](https://user-images.githubusercontent.com/50753494/211142000-40b237f8-f306-4791-b506-13b80833fcde.jpg)
+![architettura (1)](https://user-images.githubusercontent.com/50753494/211152685-2159b8e5-18f4-4143-933f-62d0b5499f77.jpg)
 
 The project is composed by 1 function:
 
