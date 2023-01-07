@@ -97,10 +97,11 @@ Then, simply follow these steps:
 
 8) Once the `Node Red` container is started and running:
     - Open the Node Red [dashboard](http://localhost:1880).
-    - Import the airMonitoringFlow in `./flow` folder.
     - Press Manage palette and from install tab search and install the following palette:
+        - node-red-contrib-image-tools
         - node-red-dashboard
         - node-red-contrib-mqtt-broker
+    - Import the airMonitoringFlow in `./flow` folder.
     - Set the MQTT server property (Server, Port, Username and Password) on `pmTopic` or `fanTopic` (this will automatically change both).
     - Click on `Deploy`.
 
