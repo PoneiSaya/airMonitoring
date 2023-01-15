@@ -82,7 +82,7 @@ The project is fully functional using docker instances.
 
 6) Register and log in on `IFTTT` then:
     - Create a new Applet
-    - `IF` action will be a Webhook 
+    - `IF` action will be a Webhook - Receive a web request 
     - `THEN` reaction will be a Trigger Monkey. 
 You need to save your request url and IFTTTkey by clicking on your webhook [documentation](https://ifttt.com/maker_webhooks)
 
@@ -102,7 +102,7 @@ Then, simply follow these steps:
         - node-red-dashboard
         - node-red-contrib-mqtt-broker
     - Import the airMonitoringFlow in `./flow` folder.
-    - Set the MQTT server property (Server, Port, Username and Password) on `pmTopic` or `fanTopic` (this will automatically change both).
+    - Set the MQTT server property (Server, Port, Username `guest` and Password `guest`) on `pmTopic` or `fanTopic` (this will automatically change both).
     - Click on `Deploy`.
 
 ## Try it
