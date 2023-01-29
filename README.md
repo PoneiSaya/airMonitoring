@@ -93,6 +93,7 @@ Then, simply follow these steps:
     - Click on `Create Function` and then on `Import` to upload `processThreshold`  functions by using `processThreshold.yaml` file. You can find this file in `./yaml-function` folder.
     - Click on `Create`.
     - Go to the `Code` tab and change the `iftttKey` and `mqttUrl` variables using your IFTTT key and MQTT url (should be mqtt:your-local-ip).
+    - Go to the `Trigger` tab and change the MQTT url.
     - Click on `Deploy` button.
 
 8) Once the `Node Red` container is started and running:
